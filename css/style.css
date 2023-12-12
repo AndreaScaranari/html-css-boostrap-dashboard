@@ -3,10 +3,25 @@ body {
     overflow: hidden;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* header */
 header {
-    height: 80px;
-    background-color: blue;
+    background-color: #FFFFFF;
+}
+
+header img {
+    max-height: 54px;
+}
+
+header input.form-control {
+    background-color: #E5E5E5;
+}
+
+.fa-bell {
+    color: #FF8F00;
 }
 
 /* wrapper */
@@ -17,7 +32,8 @@ header {
 /* sidebar (left area) */
 .sidebar {
     width: 60px;
-    background-color: green;
+    background-image: url(../asset/img/sidebar-bg.png);
+    background-color: #051E34;
 }
 
 /* main (right area) */
