@@ -31,9 +31,25 @@ header input.form-control {
 
 /* sidebar (left area) */
 .sidebar {
-    width: 60px;
+    width: 80px;
     background-image: url(../asset/img/sidebar-bg.png);
     background-color: #051E34;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.sidebar li {
+    padding-bottom: 1rem;
+}
+
+.sidebar span {
+    padding-left: 10px;
 }
 
 /* main (right area) */
@@ -50,4 +66,14 @@ header input.form-control {
 
 .boards {
     background-color: grey;
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar {
+        width: 140px;
+    }
+
+    nav.navbar {
+        padding: 1rem 0;
+    }
 }
