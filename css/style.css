@@ -1,1 +1,37 @@
 /* Generics */
+body {
+    overflow: hidden;
+}
+
+/* header */
+header {
+    height: 80px;
+    background-color: blue;
+}
+
+/* wrapper */
+.wrapper {
+    height: calc(100vh - 80px);
+}
+
+/* sidebar (left area) */
+.sidebar {
+    width: 60px;
+    background-color: green;
+}
+
+/* main (right area) */
+.wrapper-jr {
+    background-color: red;
+    width: 100%;
+    overflow: auto;
+}
+
+.summary {
+    background-color: #1B72E8;
+    height: 200px;
+}
+
+.boards {
+    background-color: grey;
+}
