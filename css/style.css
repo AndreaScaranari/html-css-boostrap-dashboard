@@ -63,7 +63,6 @@ li {
 
 /* main (right area) */
 main {
-    background-color: red;
     overflow: auto;
     flex-grow: 1;
 }
@@ -71,7 +70,6 @@ main {
 /* Header blu / Summary */
 .summary {
     background-color: #1B72E8;
-    min-height: 200px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -104,7 +102,7 @@ main {
 
 /* Sezione con dati e tabelle / Boards */
 .boards {
-    background-color: grey;
+    background-color: #F8F9FA;
 }
 
 
