@@ -105,6 +105,35 @@ main {
     background-color: #F8F9FA;
 }
 
+table img {
+    max-height: 40px;
+    margin-right: 5px;
+    filter: brightness(120%) contrast(120%) saturate(120%);
+}
+
+table i.fa-solid {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+}
+
+tr > *:not(:first-child) {
+    text-align: center;
+}
+
+tr > :nth-child(2),
+tr > :nth-child(3) {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    tr > :nth-child(2),
+    tr > :nth-child(3) {
+    display: table-cell;
+    }
+}
 
 @media screen and (min-width: 992px) {
     .sidebar {
