@@ -68,18 +68,48 @@ main {
     flex-grow: 1;
 }
 
+/* Header blu / Summary */
 .summary {
     background-color: #1B72E8;
     min-height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
+.summary p {
+    margin: 0 1rem 0 0;
+    font-weight: 500;
+}
+
+.new-student {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.new-student .fa-plus {
+    color: white;
+    border-color: white;
+    padding: 12px
+}
+
+.badge {
+    background-color: #165BBA;
+}
+
+.boolpian li {
+    margin-right: 3px;
+}
+
+/* Sezione con dati e tabelle / Boards */
 .boards {
     background-color: grey;
 }
+
 
 @media screen and (min-width: 992px) {
     .sidebar {
         width: 140px;
     }
-
 }
